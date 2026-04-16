@@ -4,13 +4,13 @@
 from datetime import datetime
 
 class Coche:
-    def __init__(self, marca, modelo, anio):
+    def __init__(self, marca, modelo, año):
         self.marca = marca
         self.modelo = modelo
-        self.anio = anio
+        self.año = año
 
     def antiguedad(self):
-        return datetime.now().year - self.anio
+        return datetime.now().year - self.año
 
 
 if __name__ == "__main__":
